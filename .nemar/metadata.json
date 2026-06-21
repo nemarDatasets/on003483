@@ -1,30 +1,68 @@
 {
   "version": "2.0",
-  "dataset_id": "on003483",
-  "source": "openneuro",
-  "source_id": "ds003483",
+  "pipeline_stage": "enriched",
   "title": "Logical reasoning study",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Cognitive and Computational Neuroscience Laboratory (UPM - UCM).": {},
     "PI: Fernando Maestu.": {},
     "PI: Carmen Requena": {},
     "PI: Francisco Salto Alemany": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003483.v1.0.2",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003483",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003483",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "BIDS 1.2.0",
-  "recording_modality": [
+  "modalities": [
     "meg"
   ],
-  "datatypes": [
-    "meg"
-  ]
+  "resource_type_specific": "MEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".dat",
+    ".fif",
+    ".gitattributes",
+    ".json",
+    ".mat",
+    ".md",
+    ".tsv"
+  ],
+  "description": "This dataset comprises MEG neuroimaging data from a logical reasoning study conducted by the Cognitive and Computational Neuroscience Laboratory at UPM-UCM. The study investigates neural correlates of logical reasoning processes. This dataset is mirrored on NEMAR from OpenNeuro (ds003483) and is organized according to BIDS standards to facilitate reproducible analysis and broad accessibility to the research community.",
+  "keywords": [
+    {
+      "term": "logical reasoning"
+    },
+    {
+      "term": "magnetoencephalography"
+    },
+    {
+      "term": "cognitive neuroscience"
+    },
+    {
+      "term": "neural correlates"
+    },
+    {
+      "term": "MEG"
+    },
+    {
+      "term": "BIDS"
+    }
+  ],
+  "source_hash": "84a524b8d4976a046044dfcd486528ceb0e03d83dbd886c7073e493aa416bed8"
 }
