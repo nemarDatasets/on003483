@@ -1,7 +1,8 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Logical reasoning study",
+  "description": "This dataset comprises neuroimaging data from a logical reasoning study conducted by the Cognitive and Computational Neuroscience Laboratory at UPM-UCM. The study investigates neural correlates of logical reasoning processes through multimodal brain imaging. Data were collected from multiple participants performing logical reasoning tasks.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -10,12 +11,21 @@
     "PI: Carmen Requena": {},
     "PI: Francisco Salto Alemany": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003483.v1.0.2",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "logical reasoning"
     },
+    {
+      "term": "neuroimaging"
+    },
+    {
+      "term": "cognitive neuroscience"
+    },
+    {
+      "term": "brain imaging"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "https://github.com/nemarDatasets/on003483",
       "identifier_type": "URL",
@@ -25,14 +35,19 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003483",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003483.v1.0.2",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
+  "resource_type_specific": "MEG Dataset",
   "modalities": [
     "meg"
   ],
-  "resource_type_specific": "MEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "73.3 GB (119 files)"
   ],
   "formats": [
     ".dat",
@@ -41,28 +56,8 @@
     ".json",
     ".mat",
     ".md",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises MEG neuroimaging data from a logical reasoning study conducted by the Cognitive and Computational Neuroscience Laboratory at UPM-UCM. The study investigates neural correlates of logical reasoning processes. This dataset is mirrored on NEMAR from OpenNeuro (ds003483) and is organized according to BIDS standards to facilitate reproducible analysis and broad accessibility to the research community.",
-  "keywords": [
-    {
-      "term": "logical reasoning"
-    },
-    {
-      "term": "magnetoencephalography"
-    },
-    {
-      "term": "cognitive neuroscience"
-    },
-    {
-      "term": "neural correlates"
-    },
-    {
-      "term": "MEG"
-    },
-    {
-      "term": "BIDS"
-    }
-  ],
-  "source_hash": "84a524b8d4976a046044dfcd486528ceb0e03d83dbd886c7073e493aa416bed8"
+  "source_hash": "ebfc1be10078081433d2cb0183c7617252a3c7815a4442e089772c0a70c13a68"
 }
